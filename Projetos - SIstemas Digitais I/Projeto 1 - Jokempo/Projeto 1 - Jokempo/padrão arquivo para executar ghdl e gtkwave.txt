@@ -1,0 +1,10 @@
+cd C:\GHDL\ghdl\bin
+ghdl.exe -a P1_circuito.vhd    --Nome do arquivo design
+ghdl.exe -a P1_circuito_tb.vhd --Nome do arquivo tb
+ghdl.exe -e P1_circuito_tb
+ghdl.exe -r P1_circuito_tb --vcd=saida.vcd
+pause
+cd C:\GHDL\gtkwave\bin
+gtkwave.exe
+
+Transformar o arquivo em .bat
